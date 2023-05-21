@@ -68,3 +68,11 @@ body {
     }
 }
 
+p{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 60px;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    
+}
