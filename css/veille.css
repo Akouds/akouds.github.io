@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     min-width: 0;
-    font: inherit;
+    
 }
 
 *, *::before, *::after {
@@ -33,22 +33,15 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
+    text-decoration: underline;
+    text-align: center;
 }
 
 p {
     text-wrap: pretty;
 }
 
-h1.bvn {
-    text-align: center;
-    margin-top: 15px;
-}
 
-div.row {
-    justify-content: center;
-    justify-content: space-evenly;
-    margin-top: 30px;
-}
 
 #sticky-footer {
     position: relative;
@@ -70,3 +63,13 @@ div.row {
     padding-left: unset !important;
     padding-right: unset !important;
 }
+
+th {
+    vertical-align: middle;
+}
+
+td {
+    vertical-align: middle;
+}
+
+
