@@ -70,3 +70,14 @@ div.row {
     padding-left: unset !important;
     padding-right: unset !important;
 }
+
+.card-body {
+    padding-bottom: 60px !important;
+}
+.card-body > a.btn, .card-body > div.btn-group {
+    position: absolute;
+    bottom: 10px;
+    top: unset;
+    left: calc(50% - 100px);
+    width: 200px;
+}

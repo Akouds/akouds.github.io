@@ -80,5 +80,16 @@ div.row {
     margin-top: 30px;
 }
 
+.card-body {
+    padding-bottom: 60px !important;
+}
+.card-body > a.btn, .card-body > div.btn-group {
+    position: absolute;
+    bottom: 10px;
+    top: unset;
+    left: calc(50% - 100px);
+    width: 200px;
+}
+
 
 
