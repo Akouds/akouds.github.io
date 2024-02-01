@@ -74,6 +74,11 @@ td {
     vertical-align: middle;
 }
 
+div.row {
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
 
 
 
