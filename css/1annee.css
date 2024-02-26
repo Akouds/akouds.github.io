@@ -39,7 +39,11 @@ p {
     text-wrap: pretty;
 }
 
-h1.bvn {
+p.stage{
+    text-align: center;
+}
+
+h1.chmy {
     text-align: center;
     margin-top: 15px;
 }
