@@ -41,6 +41,11 @@ p {
     text-align: center;
 }
 
+p.stage {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
 h1.bvn {
     text-align: center;
     margin-top: 15px;
