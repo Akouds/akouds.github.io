@@ -3,6 +3,7 @@
     padding: 0;
     min-width: 0;
     font: inherit;
+    font-size: 22px;
 }
 
 *, *::before, *::after {
@@ -45,6 +46,7 @@ h1 {
 p {
     text-wrap: pretty;
 }
+
 
 h1.bvn {
     text-align: center;
