@@ -33,10 +33,28 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
+    text-align: center;
 }
 
 p {
     text-wrap: pretty;
+    text-align: center;
+}
+
+p.stage {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+h1.bvn {
+    text-align: center;
+    margin-top: 15px;
+}
+
+div.row {
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
 }
 
 #sticky-footer {
@@ -47,4 +65,15 @@ p {
     text-align: center;
     padding: 1rem;
     margin-top: 200px;
+    
+}
+
+/* override bootstrap */
+.row {
+    margin-right : unset !important;
+    margin-left: unset !important;
+}
+.row > * {
+    padding-left: unset !important;
+    padding-right: unset !important;
 }
